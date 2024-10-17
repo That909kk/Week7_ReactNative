@@ -16,7 +16,7 @@ const Stack = createStackNavigator();
 export default function App() {
   return (
     <NavigationContainer style={styles.container}>
-      <Stack.Navigator initialRouteName='index3'>
+      <Stack.Navigator initialRouteName='index'>
         <Stack.Screen
           name='index'
           component={Lab07Screen1}
